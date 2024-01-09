@@ -1,0 +1,200 @@
+
+
+/* responsive */
+
+@media screen and (max-width: 750px ){
+    * {
+            margin: 0;
+            font-family: 'facebook-letter-faces-regular',
+                sans-serif;
+            /* margin-right: 10px; */
+        }
+    
+        body {
+            background: rgb(74, 73, 73);
+        }
+    
+        #nav1 {
+            color: #beebfa;
+            font-size: 1.2rem;
+            background: rgba(99, 79, 44, 0.768);
+            width: 100%;
+        }
+    
+        h1 {
+            text-align: center;
+            color: rgb(71, 143, 195);
+            font-size: bold;
+            margin-top: 20px;
+        }
+    
+        form {
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: rgb(74, 73, 73);
+        }
+    
+        input {
+            background-color: rgba(89, 86, 86, 0.365);
+            color: white;
+            width: 90%;
+            margin-right: 3000px;
+            padding: 20px;
+            margin: 5px;
+            border-radius: 10px;
+            outline: none;
+            border: 0px;
+    
+        }
+    
+        ::placeholder {
+            color: white;
+            font-size: 20px;
+        }
+    
+        .margin {
+            margin-left: 50px;
+        }
+    
+        #button1 {
+            text-align: center;
+            background-color: rgb(55, 55, 225);
+            color: white;
+            width: 90%;
+            height: 70px;
+            border-radius: 10px;
+            font-weight: bolder;
+            font-size: 30px;
+            margin-left: 65px;
+        }
+    
+        #div2 {
+            margin-top: 25px;
+            text-align: center;
+            color: rgb(146, 203, 243);
+            font-size: 30px;
+            text-transform: none;
+            margin-left: 90px;
+        }
+    
+        a {
+            text-decoration: none;
+            color: rgb(131, 181, 217);
+    
+        }
+    
+        hr {
+            margin-top: 35px;
+        }
+    
+        #button2 {
+            text-align: center;
+            width: 50%;
+            margin: 50px 50px;
+            background: rgb(74, 73, 73);
+            color: white;
+            height: 50px;
+            margin-left: 220px;
+            font-weight: bolder;
+            font-size: 20px;
+            border: 0.1px solid rgba(133, 130, 130, 0.547);
+        }
+    
+        section {
+            height: 150px;
+            width: 40%;
+            border: 1px;
+            float: left;
+            color: white;
+            text-align: center;
+            margin-top: 70px;
+            margin-left: 1000px;
+            font-weight: lighter;
+        }
+    
+        #icon {
+            margin-top: 10px;
+            border: 2px rgb(142, 142, 243) solid;
+            padding: 5px;
+        }
+    
+        footer {
+            margin-top: 500px;
+            clear: both;
+            text-align: center;
+            margin-top: -90%;
+            color: white;
+            font-size: small;
+        }
+    
+        .input2 {
+            text-align: center;
+        }
+    
+        #face1 {
+            margin-left: 80px;
+        }
+
+        .hidden{
+            display: none;
+        }
+}
+
+/* responsive */
+@media screen and (min-width : 751px){
+    *{
+        font-family: 'facebook-letter-faces-regular',
+                sans-serif;
+                margin-left: 80px;
+                margin-top: 30px;
+                margin-right: 80px;
+    }
+    
+    body {
+            background: rgb(74, 73, 73);
+        }
+        #face1{
+            color: rgb(71, 143, 195);
+            font-size: 25px;
+            height: 35px;
+        }
+    .hidden{
+        padding-top: 0px;
+        color: white;
+    }
+    #continue{
+        margin-left: 0px;
+        font-size: small;
+        
+    }
+    .shown{
+        display: none;
+    }
+    #recent{
+        font-size: 30px;
+    }
+    #recentLogins{
+        height: 20px;
+    }
+    .pic1{
+        border-radius: 10px;
+        border: 1px solid rgb(114, 113, 113);
+        border-bottom: 0px;
+    }
+    #pic2{
+        border: thin 10px rgb(114, 113, 113) ;
+        border-top: 50px;
+        padding-left: 0px;
+    }
+    .input2 {
+        float: right;
+        height: 0px;
+        margin-top: 0px;
+    }
+    #accountName{
+        border: 1px solid rgb(114, 113, 113);
+        border-radius: 10px;
+        width: 190px;
+        border-spacing: 70px;
+    }
+}
